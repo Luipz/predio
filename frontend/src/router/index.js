@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import predioa from '@/components/predioa'
+import predioa from '@/components/predioas'
 
 Vue.use(VueRouter)
 
