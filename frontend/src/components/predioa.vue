@@ -1,7 +1,6 @@
 <template>
   <div>
     <ul>
-      {{allPredios}}
         <li :key="predioa.id" v-for="predioa  in predioas.data.allPredios" >
           {{predioa.carBrand +' '+ predioa.licensePlate}}
         </li>
@@ -12,7 +11,7 @@
 
 import gql from 'graphql-tag'
   export default {
-    name: 'PredioList',    
+    name: 'predioList',    
     data () {
       return {
         predioas: ''
