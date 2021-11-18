@@ -1,10 +1,10 @@
 <template>
     <div class="agregar"><form action="" > 
-        <label for="carbrand"> carBrand</label><br>
-            <input type="text" class="form-control" id="carbrand" v-model="predio.car_brand" name="carbrand" placeholder="carbrand"><br>
-            <label for="licenseplate">licensePlate</label><br>
-            <input type="text" class="form-control" id="licenseplate" v-model="predio.license_plate" name="carbrand" placeholder="licenseplate"><br>
-            <button @click.prevent="agregar()"> nuevo predio</button><br>
+        <label for="carbrand"> carBrand</label><br><br>
+            <input type="text" class="form-control" id="carbrand" v-model="predio.car_brand" name="carbrand" placeholder="carbrand"><br><br>
+            <label for="licenseplate">licensePlate</label><br><br>
+            <input type="text" class="form-control" id="licenseplate" v-model="predio.license_plate" name="carbrand" placeholder="licenseplate"><br><br>
+            <br><button @click.prevent="agregar()"> agregar predio</button><br><br>
             </form></div>
 </template>
 
