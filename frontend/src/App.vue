@@ -3,9 +3,6 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-      <router-link to="/predioas/lista">lista</router-link>
-      <router-link to="/predioas/agregar">agregar</router-link>
-
     </div>
     <router-view/>
   </div>

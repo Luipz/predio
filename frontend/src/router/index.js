@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import predioa from '@/components/predioas'
-//import agregars from '@/components/agregar'
+import predioa from '@/components/predioa'
+import agregar from '@/components/agregar'
 
 Vue.use(VueRouter)
 
@@ -11,13 +11,11 @@ const routes = [
     name: 'predioa',
     component: predioa
   },
-
   {
     path: '/predioas/agregar',
     name: 'agregar',
-    component: agregars
+    component: agregar
   },
-
 ]
 
 const router = new VueRouter({
