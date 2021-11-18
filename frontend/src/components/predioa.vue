@@ -1,7 +1,6 @@
 <template>
   <div>
-    <ul>
-      
+    <ul> 
         <li :key="predioa.id" v-for="predioa  in predioas.data.allPredios" >
           {{predioa.carBrand +' '+ predioa.licensePlate}}
         </li>

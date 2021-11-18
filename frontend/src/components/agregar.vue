@@ -25,12 +25,9 @@ export default {
         agregar(){
             this.$apollo.mutate({
                 mutation: gql`mutation add {
-                    addPredio(
-										
+                    addPredio(					
                       carBrand: "${this.predio.car_brand}"
                       licensePlate: "${this.predio.license_plate}"
-                      
-
                     )
                     {
                     predio {
